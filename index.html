@@ -8,24 +8,22 @@
 </head>
 <body>
     <div>
-        <div class = "contact">
+        <div id = "contact">
             <div class = "left">
-                <div class="background-bubble">
-
-                </div>
+                <div id="contact-bubble" class="background-bubble"></div>
             </div>
             <div class = "right">
-                <h2>Need Help Making Coffee? Contact us</h2>
+                <h2>Need Help Making Coffee? <span class="red-line">Contact us</span></h2>
                 <div class = "container">
                     <form>
                         <label for="name">Name</label><br>
-                        <input type="text" id="name"><br>
+                        <input type="text" class="form-input" id="name"><br>
                         <label for="email">Email</label><br>
-                        <input type="text" id="email"><br>
+                        <input type="text" class="form-input" id="email"><br>
                         <label for="message">Message</label><br>
-                        <textarea id="message" name="name" rows="5"></textarea><br>
-                        <input type="submit" value="Send">
+                        <textarea id="message" class="form-input" name="name" rows="4"></textarea><br>
                     </form>
+                    <button type="submit"class="button">Send</button>
                 </div>
             </div>
         </div>
