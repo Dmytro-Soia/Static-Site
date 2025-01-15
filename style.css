@@ -1,33 +1,46 @@
 body{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.45);
+    transform-origin: top;
     padding: 0px;
 }
 h2 {
     text-align:left;
     font-weight:bolder;
-    width: 50%;
+    width: 60%;
 }
-#contact {
+.section {
     display: flex;
     justify-content: center;
+    padding: 30px 0px;
 }
 .left {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     margin-right: auto;
-    align-items: center;
+
 }
 .right {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
     width: 50%;
     margin-left: auto;
-    align-items: center;
+    
 }
 .form-input {
+    width: 250px;
     background-color: #ffeef6;
     border: 1px solid;
     border-color: black;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 3px;
 }
 form {
@@ -54,12 +67,8 @@ label {
     
 }
 .background-bubble {
-    width: 450px;
-    height: 390px;
+    width: 350px;
+    height: 290px;
     background-color: #ffeef6;
     border-radius: 45%;
-}
-#contact-bubble {
-    position: relative;
-    right: 120px;
 }
