@@ -1,14 +1,14 @@
-body{
+body {
     margin: 0;
     font-family: "Merriweather";
 }
 
 h2 {
-    text-align:left;
+    text-align: left;
     font-weight: 700px;
     font-size: 54px;
     line-height: 72px;
-    
+
 }
 
 .section {
@@ -35,13 +35,13 @@ h2 {
     background-color: #020e35;
     color: #ffffff;
     font-size: 18px;
-    border:none;
+    border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: "Merriweather";
 }
 
 .red_line {
-    background: linear-gradient(to top, #ff5678 42%, #ffffff 42%);  
+    background: linear-gradient(to top, #ff5678 43%, #ffffff 43%);
 }
 
 .background_bubble {
@@ -59,7 +59,81 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
-/*/////Service/////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////Powered By/////*/
+#talented_people {
+    position: relative;
+    top: 100px;
+    width: 592px;
+    height: 508px;
+    border-radius: 500px;
+    opacity: 0.8;
+}
+
+.right_poweredby {
+    width: 517px;
+    height: 435px;
+}
+
+#ppoweredby {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.bold_text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.rowed {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    width: 68px;
+    height: 68px;
+    background-color: #ff5678;
+    border-radius: 50%;
+    margin: 0px 30px;
+}
+
+.triangle {
+	position: relative;
+    top: 19px;
+    left: 22px;
+	background-color: white;
+	text-align: left;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  19px;
+	height: 19px;
+	border-top-right-radius: 30%;
+}
+
+.triangle {
+	transform: rotate(-90deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////Service/////*/
 #left_service {
     width: 545px;
     height: 592px;
@@ -71,6 +145,7 @@ h2 {
     right: 150px;
     flex-shrink: 0;
 }
+
 #hservice {
     width: 457px;
     margin-bottom: 70px;
@@ -78,7 +153,7 @@ h2 {
 
 .numbers_service {
     display: flex;
-    float: left ;
+    float: left;
     width: 83px;
     height: 100px;
     margin: 0px 30px 0px 0px;
@@ -86,7 +161,7 @@ h2 {
     font-family: "Merriweather";
     font-size: 55px;
     -webkit-text-stroke: 1px black;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .bold_numbers {
@@ -95,7 +170,7 @@ h2 {
 }
 
 .pservice {
-    width: 529px; 
+    width: 529px;
     height: 100px;
     margin-bottom: 35px;
 }
@@ -109,6 +184,7 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
+
 #bubble_service {
     position: relative;
     z-index: 1;
@@ -116,8 +192,9 @@ h2 {
     right: 880px;
     flex-shrink: 0;
 }
-/*/////Craft Experiences/////*/
-  
+
+/*///////////////////////////////////////////////////////////////////////////Craft Experiences/////*/
+
 #left_craft {
     width: 664px;
     height: 503px;
@@ -139,14 +216,15 @@ h2 {
     opacity: 0.8;
     padding: 4px;
 }
-/*/////Contact Us/////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////Contact Us/////*/
 
 #right_contact {
-display: flex;
-align-items: left;
-width: 656px;
-height: 904px;
-flex-direction: column;
+    display: flex;
+    align-items: left;
+    width: 656px;
+    height: 904px;
+    flex-direction: column;
 }
 
 .form_input1 {
@@ -162,7 +240,8 @@ flex-direction: column;
 textarea {
     resize: none;
 }
-/*/////NewsLetter/////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////NewsLetter/////*/
 #left_NewsLetter {
     width: 627px;
     height: 621px;
