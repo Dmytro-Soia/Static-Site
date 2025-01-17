@@ -1,74 +1,114 @@
 body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(1.45);
-    transform-origin: top;
-    padding: 0px;
+    margin: 0;
+    font-family: "Merriweather";
 }
+
 h2 {
     text-align:left;
-    font-weight:bolder;
-    width: 60%;
-}
-.section {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0px;
-}
-.left {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-right: auto;
-
-}
-.right {
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: auto;
+    font-weight: 700px;
+    font-size: 54px;
+    line-height: 72px;
     
 }
-.form-input {
-    width: 250px;
-    background-color: #ffeef6;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-top: 3px;
-}
-form {
+
+.section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 670px;
+    padding: 100px 150px;
+}
+
+.form-input {
+    width: 656px;
+    height: 70px;
+    background-color: #ffeef6;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 35px;
+    font-family: "Merriweather";
+}
+
+.button {
+    height: 71px;
+    width: 185px;
+    background-color: #020e35;
+    color: #ffffff;
+    font-size: 18px;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Merriweather";
+}
+
+.red-line {
+    background: linear-gradient(to top, #ff5678 42%, #ffffff 42%);  
+}
+
+.background-bubble {
+    width: 780px;
+    height: 670px;
+    background-color: #ffeef6;
+    border-radius: 45%;
+}
+
+.container {
     flex-direction: column;
 }
+
+.base-font {
+    display: inline-block;
+    width: 53px;
+    height: 23px;
+    font-weight: 400;
+}
+/*/////Craft Experiences/////*/
+  
+#left_craft {
+    width: 664px;
+    height: 503px;
+}
+
+#pcraft {
+    width: 481px;
+    height: 96px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+#craft_img {
+    height: 670px;
+    width: 780px;
+    border-radius: 1000px;
+    opacity: 0.8;
+    padding: 4px;
+}
+/*/////Contact Us/////*/
+
+#right_contact {
+display: flex;
+align-items: left;
+width: 656px;
+height: 904px;
+flex-direction: column;
+}
+
+.form-input1 {
+    width: 656px;
+    height: 200px;
+    background-color: #ffeef6;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 35px;
+    font-family: "Merriweather";
+}
+
 textarea {
     resize: none;
 }
-label {
-    font-size: x-small;
-}
-.button {
-    height: 30px;
-    width: 90px;
-    background-color: #020e35;
-    color: #ffffff;
-    font-size: x-small;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.red-line {
-    background: linear-gradient(to top, #ff5678 50%, #ffffff 50%);
-    
-}
-.background-bubble {
-    width: 350px;
-    height: 290px;
-    background-color: #ffeef6;
-    border-radius: 45%;
+/*/////NewsLetter/////*/
+#left_NewsLetter {
+    width: 627px;
+    height: 621px;
 }
