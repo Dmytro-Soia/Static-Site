@@ -21,11 +21,20 @@ h2 {
     padding: 100px 150px;
 }
 
+.grid_section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 51px;
+    justify-content: space-between;
+    align-items:center;
+    height: 1185px;
+    padding: 100px 100px;
+}
 .form_input {
     width: 656px;
     height: 70px;
     background-color: #ffeef6;
-    border: 1px solid black;
+    border: 1px solid #B8B8B8;
     border-radius: 10px;
     font-size: 35px;
     font-family: "Merriweather";
@@ -43,7 +52,7 @@ h2 {
 }
 
 .red_line {
-    background: linear-gradient(to top, #ff5678 43%, #ffffff 43%);
+    background: linear-gradient(to top, #ff5678 44%, #ffffff 44%);
 }
 
 .background_bubble {
@@ -61,7 +70,7 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
-/*/////////////////////////////////////////////////////////////////////////////////////////Navigation Bar/////*/
+/*/////////////////////////////////////////////////////////////////////////////////////Navigation Bar/////*/
 #navbar {
     display: flex;
     position: fixed;
@@ -122,7 +131,7 @@ h2 {
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
-/*///////////////////////////////////////////////////////////////////////////////////////////Home Page/////*/
+/*////////////////////////////////////////////////////////////////////////////////////////Home Page/////*/
 .left_home {
     width: 548px;
     height:457px;
@@ -139,7 +148,7 @@ h1 {
     background-color: #FF5678;
     color: white;
 }
-/*//////////////////////////////////////////////////////////////////////////////////////////Powered By/////*/
+/*////////////////////////////////////////////////////////////////////////////////////////Powered By/////*/
 #talented_people {
     position: relative;
     top: 100px;
@@ -273,7 +282,7 @@ h1 {
     flex-shrink: 0;
 }
 
-/*///////////////////////////////////////////////////////////////////////////Craft Experiences/////*/
+/*///////////////////////////////////////////////////////////////////////////////////Craft Experiences/////*/
 
 #left_craft {
     width: 664px;
@@ -298,6 +307,60 @@ h1 {
     object-fit: cover;
 }
 
+/*//////////////////////////////////////////////////////////////////////////////////////Team Members/////*/
+#h2team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:404px;
+    margin: auto;
+}
+
+.team_member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 519px;
+    height:519px;
+    border-radius: 50px;
+    border: 1px solid #B8B8B8;
+    margin:auto;
+}
+.chosen_team_member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:539px;
+    height: 539px;
+    border-radius: 50px;
+    border: 1px solid #B8B8B8;
+    box-shadow: 0px 10px 25px #949191;
+}
+
+.icon {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: #FFEEF6;
+    margin: 48px 0px
+}
+
+.name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color:#020e35;
+    margin: 12px 0px;
+}
+
+.job {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 12px 0px;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////Contact Us/////*/
 
 #right_contact {
@@ -312,7 +375,7 @@ h1 {
     width: 656px;
     height: 200px;
     background-color: #ffeef6;
-    border: 1px solid black;
+    border: 1px solid #B8B8B8;
     border-radius: 10px;
     font-size: 35px;
     font-family: "Merriweather";
@@ -322,7 +385,7 @@ textarea {
     resize: none;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////////////////////NewsLetter/////*/
+/*////////////////////////////////////////////////////////////////////////////////////////NewsLetter/////*/
 #left_NewsLetter {
     width: 627px;
     height: 621px;
