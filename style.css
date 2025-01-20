@@ -1,6 +1,8 @@
-body {
+html, body {
     margin: 0;
     font-family: "Merriweather";
+    max-width: 1920px;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -36,7 +38,7 @@ h2 {
     color: #ffffff;
     font-size: 18px;
     border: none;
-    filter: drop-shadow(5px 15px 20px #626366);
+    filter: drop-shadow(5px 15px 20px #949191);
     font-family: "Merriweather";
 }
 
@@ -58,6 +60,67 @@ h2 {
 .base_font {
     font-size: 18px;
     font-weight: 400;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////Navigation Bar/////*/
+#navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:1620px;
+    height: 84px;
+    padding: 0px 150px;
+    background-color: white;
+}
+
+.parent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 10 !important;
+  }
+
+#logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.2px;
+    color:#FF5678;
+    background-color: white;
+}
+.button_nav {
+    height: 71px;
+    width: 185px;
+    background-color: white;
+    color: #020e35;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    font-family: "Merriweather";
+}
+
+#spec_button_nav {
+    font-size: 16px;
+    line-height: 20px;
+    filter: drop-shadow(0px 0px 0px);
+}
+
+.current_button_nav {
+    height: 71px;
+    width: 185px;
+    background-color: white;
+    color: #020e35;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    font-family: "Merriweather";
+    text-decoration: underline #FF5678;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////Home Page/////*/
 .left_home {
@@ -154,7 +217,7 @@ h1 {
 #left_service {
     width: 545px;
     height: 592px;
-    z-index: 3;
+    z-index: 2;
 }
 
 .right_services {
