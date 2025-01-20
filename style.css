@@ -36,7 +36,7 @@ h2 {
     color: #ffffff;
     font-size: 18px;
     border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: drop-shadow(5px 15px 20px #626366);
     font-family: "Merriweather";
 }
 
@@ -59,7 +59,23 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
+/*///////////////////////////////////////////////////////////////////////////////////////////Home Page/////*/
+.left_home {
+    width: 548px;
+    height:457px;
+}
 
+
+h1 {
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 110px;
+}
+
+#brand_mark {
+    background-color: #FF5678;
+    color: white;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////////Powered By/////*/
 #talented_people {
     position: relative;
@@ -68,6 +84,7 @@ h2 {
     height: 508px;
     border-radius: 500px;
     opacity: 0.8;
+    object-fit: cover;
 }
 
 .right_poweredby {
@@ -215,6 +232,7 @@ h2 {
     border-radius: 1000px;
     opacity: 0.8;
     padding: 4px;
+    object-fit: cover;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////Contact Us/////*/
