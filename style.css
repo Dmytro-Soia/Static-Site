@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     font-family: "Merriweather";
     max-width: 1920px;
@@ -26,10 +27,11 @@ h2 {
     grid-template-columns: auto auto auto;
     gap: 51px;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     height: 1185px;
     padding: 100px 100px;
 }
+
 .form_input {
     width: 656px;
     height: 70px;
@@ -70,6 +72,12 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 14px 0px;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////Navigation Bar/////*/
 #navbar {
     display: flex;
@@ -77,7 +85,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:1620px;
+    width: 1620px;
     height: 84px;
     padding: 0px 150px;
     background-color: white;
@@ -90,7 +98,7 @@ h2 {
     margin: auto;
     width: 100%;
     z-index: 10 !important;
-  }
+}
 
 #logo {
     display: flex;
@@ -98,9 +106,9 @@ h2 {
     font-weight: 700;
     font-size: 28px;
     line-height: 35.2px;
-    color:#FF5678;
-    background-color: white;
+    color: #FF5678;
 }
+
 .button_nav {
     height: 71px;
     width: 185px;
@@ -131,10 +139,11 @@ h2 {
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
+
 /*////////////////////////////////////////////////////////////////////////////////////////Home Page/////*/
 .left_home {
     width: 548px;
-    height:457px;
+    height: 457px;
 }
 
 
@@ -148,6 +157,7 @@ h1 {
     background-color: #FF5678;
     color: white;
 }
+
 /*////////////////////////////////////////////////////////////////////////////////////////Powered By/////*/
 #talented_people {
     position: relative;
@@ -192,34 +202,38 @@ h1 {
 }
 
 .triangle {
-	position: relative;
+    position: relative;
     top: 19px;
     left: 22px;
-	background-color: white;
-	text-align: left;
+    background-color: white;
+    text-align: left;
 }
+
 .triangle:before,
 .triangle:after {
-	content: '';
-	position: absolute;
-	background-color: inherit;
+    content: '';
+    position: absolute;
+    background-color: inherit;
 }
+
 .triangle,
 .triangle:before,
 .triangle:after {
-	width:  19px;
-	height: 19px;
-	border-top-right-radius: 30%;
+    width: 19px;
+    height: 19px;
+    border-top-right-radius: 30%;
 }
 
 .triangle {
-	transform: rotate(-90deg) skewX(-30deg) scale(1,.866);
+    transform: rotate(-90deg) skewX(-30deg) scale(1, .866);
 }
+
 .triangle:before {
-	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
 }
+
 .triangle:after {
-	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////Service/////*/
@@ -312,7 +326,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:404px;
+    width: 404px;
     margin: auto;
 }
 
@@ -322,17 +336,18 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 519px;
-    height:519px;
+    height: 519px;
     border-radius: 50px;
     border: 1px solid #B8B8B8;
-    margin:auto;
+    margin: auto;
 }
+
 .chosen_team_member {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:539px;
+    width: 539px;
     height: 539px;
     border-radius: 50px;
     border: 1px solid #B8B8B8;
@@ -340,8 +355,8 @@ h1 {
 }
 
 .icon {
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: #FFEEF6;
     margin: 48px 0px
@@ -351,7 +366,7 @@ h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
-    color:#020e35;
+    color: #020e35;
     margin: 12px 0px;
 }
 
@@ -361,6 +376,7 @@ h1 {
     line-height: 23px;
     margin: 12px 0px;
 }
+
 /*//////////////////////////////////////////////////////////////////////////////////////Contact Us/////*/
 
 #right_contact {
@@ -389,4 +405,108 @@ textarea {
 #left_NewsLetter {
     width: 627px;
     height: 621px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////Footer/////*/
+
+#footer_section {
+    height: 389px;
+    padding: 60px 0px;
+    justify-content: center;
+    align-items: center;
+}
+#row_footer {
+    margin: 50px 150px 50px 150px;
+    justify-content: space-between;
+    width: 1650px;
+    flex-shrink: 0;
+}
+
+#bubble_footer_left {
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    left: 475px;
+    flex-shrink: 0;
+}
+
+#bubble_footer_right {
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    right: 500px;
+    flex-shrink: 0;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.p_bold_info {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.p_tel_info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.p_info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin:0px;
+}
+
+.icons_footer {
+    margin: 32px 15px;
+}
+
+#facebook {
+    margin-left: 0px
+}
+
+.bold_title_footer {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+} 
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+#blue_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    padding: 0px 100px;
+    background-color: #020e35;
+    color: white;
+    z-index: 5;
+}
+
+.p_blue_footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 100px;
+}
+
+#right_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
