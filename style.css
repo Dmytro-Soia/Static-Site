@@ -115,6 +115,7 @@ p {
 #logo {
     display: flex;
     align-items: center;
+    margin: 0px;
     font-weight: 700;
     font-size: 28px;
     line-height: 35.2px;
@@ -473,7 +474,102 @@ h1 {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
 }
+/*//////////////////////////////////////////////////////////////////////////////////////Testimonial/////*/
+#section_testimonial {
+    flex-direction: column;
+    
+    padding: 0px;
+}
 
+#h2_testimo {
+    margin-bottom: 10px;
+}
+
+#p_testimo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 100px;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 180px;
+    width:2600px;
+    gap: 32px;
+}
+
+.other_reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 58px;
+    width: 332px;
+    height: 435px;
+    border: 1px solid #B8B8B8;
+    border-radius: 150px;
+    padding: 60px 40px;
+}
+
+.chosen_review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 552px;
+    border: 1px solid #B8B8B8;
+    border-radius: 150px;
+    padding: 60px 40px;
+}
+
+.circle2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #FFEEF6;
+}
+
+.stars {
+    margin: 20px 0px;
+}
+
+.descrip_review {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.chosen_descrip_review {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 380px;
+}
+
+.name_review {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 0px;
+}
+
+.job_review {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////Contact Us/////*/
 
 #right_contact {
@@ -486,7 +582,7 @@ h1 {
 
 
 #section_make_coffee {
-    margin-top: 200px;
+    margin-top: 500px;
     margin-bottom: 300px;
 }
 
@@ -622,6 +718,11 @@ textarea {
     font-size: 14px;
     line-height: 18px;
     margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.p_footer {
+    margin-bottom: 0px;
 }
 
 #right_footer {
